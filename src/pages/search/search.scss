@@ -1,0 +1,18 @@
+page-search {
+    .underline-col {
+        border-bottom: 1px solid map_get($colors, netflixWhite);
+    }
+
+    .text-input-ios {
+        margin-top: 20px;
+    }
+
+    .content {
+        ion-list {
+            ion-item {
+                color: map_get($colors, netflixWhite);
+                background: map_get($colors, netflixBlack);
+            }
+        }
+    }
+}

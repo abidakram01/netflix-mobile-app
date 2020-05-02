@@ -1,0 +1,8 @@
+{
+  "name": "ion-netflix",
+  "app_id": "5c9b6d37",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

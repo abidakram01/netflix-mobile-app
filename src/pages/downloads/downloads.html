@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>My Downloads</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-row class="smart-downloads-row">
+    <ion-col col-10>
+      <ion-row>
+        <p class="item-title">Smart Downloads</p>
+      </ion-row>
+      <ion-row>
+        <p class="item-sub-title">Completed episodes will be deleted and replaced with the next episodes, only on Wi-Fi.</p>
+      </ion-row>
+    </ion-col>
+
+    <ion-col col-2>
+      <ion-toggle checked="false" color="netflixRed"></ion-toggle>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="movies-shows-row">
+    <ion-col text-center>
+      <button ion-button clear color="netflixWhite">
+        <ion-icon name='md-download'></ion-icon>
+      </button>
+
+      <p>Movies and TV show that you download appear here.</p>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="find-downloads-row">
+    <ion-col text-center>
+      <button ion-button icon-start color="netflixWhite" (click)="goToAvailableDownloads()">
+        FIND SOMETHING TO DOWNLOAD
+      </button>
+    </ion-col>
+  </ion-row>
+</ion-content>
